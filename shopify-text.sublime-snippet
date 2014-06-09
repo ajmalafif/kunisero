@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+<table>
+  <tr>
+    <th><label for="${1:field_name}">${4:Text setting description}</label></th>
+    <td><input type="text" id="${1:field_name}" name="${1:field_name}" class="${2:class_name}" value="${3:value_name}" /></td>
+  </tr>
+</table>
+
+{{ settings.${1:field_name} }}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>shtext</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
