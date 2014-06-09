@@ -8,9 +8,9 @@
 </table>
 
 {% if settings.${1:checkbox_name} %}
-  ${3:checkbox_true}
+  ${2:Checkbox setting description}
 {% else %}
-  ${4:checkbox_false}
+  ${3:checkbox_false}
 {% endif %}
 
 ]]></content>

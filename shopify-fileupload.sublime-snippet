@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+<table>
+  <tr>
+    <th><label for="${1:file_upload}">${4:Setting description}</label></th>
+    <td><input type="file" id="${1:file_upload}" name="${1:file_upload}.jpg" data-max-width="${2:width}" data-max-height="${3:height}" /></td>
+  </tr>
+</table>
+
+<img src="{{ '${1:file_upload}.jpg' | asset_url }}" />
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>shupload</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

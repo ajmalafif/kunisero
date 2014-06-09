@@ -2,7 +2,7 @@
   <content><![CDATA[
 <table>
   <tr>
-    <th><label for="${1:link_url}">${2:Setting description}</label></th>
+    <th><label for="${1:link_url}">${2:Link setting description}</label></th>
     <td><input type="url" id="${1:link_url}" name="${1:link_url}" value="" /></td>
   </tr>
 </table>
