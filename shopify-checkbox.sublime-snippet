@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+<table>
+  <tr>
+   <th><label for="${1:checkbox_name}">${2:Checkbox setting description}</label></th>
+   <td><input type="checkbox" id="${1:checkbox_name}" name="${1:checkbox_name}" value="1"/></td>
+  </tr>
+</table>
+
+{% if settings.${1:checkbox_name} %}
+  ${3:checkbox_true}
+{% else %}
+  ${4:checkbox_false}
+{% endif %}
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>shcheck</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

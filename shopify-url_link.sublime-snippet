@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+<table>
+  <tr>
+    <th><label for="${1:link_url}">${2:Setting description}</label></th>
+    <td><input type="url" id="${1:link_url}" name="${1:link_url}" value="" /></td>
+  </tr>
+</table>
+
+<a href="{{ settings.${1:link_url} }}" {% if settings.${1:link_url} contains 'http' %} target="_blank"{% endif %} title="{{ settings.${1:link_url}.title | escape }}" id="{{ link.title | handleize }}" class=" {{settings.${1:link_url}.class }}">
+${3:Link content }
+</a>
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>shlink</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
